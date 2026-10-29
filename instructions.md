@@ -32,13 +32,11 @@ EXPLAIN: identify one grounding risk or failure mode
 
 ## Prompt Discipline
 
-Use AI for review, debugging, or critique. Do not ask it to produce the final artifact or final answer.
-
 ```text
 Role: Retrieval or agent reviewer
 Task: Review my plan for grounding and verification.
 Inputs: source material, query, tool path, and proof evidence.
-Constraints: Do not produce the final answer. Identify weak grounding and missing traces.
+Constraints: Identify weak grounding and missing traces.
 Output format: three grounding risks, two trace checks, and one simplification.
 Verification: Name the evidence that ties the answer to the source.
 ```
