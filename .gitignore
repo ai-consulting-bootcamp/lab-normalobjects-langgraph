@@ -1,0 +1,25 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Temporary files and outputs
+*.log
+.rag_cache/
+outputs/
+_pieces/
+
+# Local test and starter notebooks
+test.ipynb
+relevance_scoring_rerankers.ipynb
+
+# Codex implementation plans
+codex_implementation_plan*.md
