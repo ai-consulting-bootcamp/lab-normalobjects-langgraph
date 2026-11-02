@@ -1,0 +1,232 @@
+{
+  "model_settings": {
+    "model": "gpt-4o-mini",
+    "temperature": 0.0
+  },
+  "manual_chain_run": {
+    "complaint": "The Downside Up portal opens at different times each day. How do I predict when?",
+    "raw_category": "portal",
+    "category": "portal",
+    "workflow_path": [
+      "intake",
+      "validate",
+      "investigate",
+      "resolve",
+      "close"
+    ],
+    "formatted_path": "intake → validate → investigate → resolve → close",
+    "node_logs": [
+      "[INTAKE] Processing complaint...",
+      "[INTAKE] Raw category: 'portal' -> Normalized: 'portal'",
+      "[INTAKE] Categorized as: portal",
+      "[VALIDATE] Checking category against VALID_CATEGORIES...",
+      "[VALIDATE] Valid complaint category 'portal'.",
+      "[INVESTIGATE] Retrieving canonical lore for category 'portal'...",
+      "[INVESTIGATE] Evidence recorded and investigation complete: The Downside Up portal opens when the barrier between worlds is weak, and its timing is influenced by electrical activity rather than a set clock. Therefore, to predict when the portal will open, one must monitor electrical activity in the environment, as this will determine the portal's availability each day.",
+      "[RESOLVE] Drafting resolution strictly from investigation findings...",
+      "[RESOLVE] Resolution generated: To effectively predict the opening of the Downside Up portal, it is essential to monitor local electrical activity, as fluctuations in this activity directly influence the portal's availability. Implementing a real-time electrical monitoring system will enhance our ability to anticipate portal openings.",
+      "[CLOSE] Case closed under category 'portal'. Verified resolution: To effectively predict the opening of the Downside Up portal, it is essential to monitor local electrical activity, as fluctuations in this activity directly influence the portal's availability. Implementing a real-time electrical monitoring system will enhance our ability to anticipate portal openings."
+    ],
+    "status": "closed"
+  },
+  "complaint_runs": [
+    {
+      "index": 1,
+      "complaint": "The Downside Up portal opens at different times each day. How do I predict when?",
+      "raw_category": "portal",
+      "category": "portal",
+      "is_valid": true,
+      "validation_reason": "Normalized category 'portal' (from raw output 'portal') is in VALID_CATEGORIES ['portal', 'monster', 'psychic', 'environmental'].",
+      "workflow_path": [
+        "intake",
+        "validate",
+        "investigate",
+        "resolve",
+        "close"
+      ],
+      "formatted_path": "intake → validate → investigate → resolve → close",
+      "node_logs": [
+        "[INTAKE] Processing complaint...",
+        "[INTAKE] Raw category: 'portal' -> Normalized: 'portal'",
+        "[INTAKE] Categorized as: portal",
+        "[VALIDATE] Checking category against VALID_CATEGORIES...",
+        "[VALIDATE] Valid complaint category 'portal'.",
+        "[INVESTIGATE] Retrieving canonical lore for category 'portal'...",
+        "[INVESTIGATE] Evidence recorded and investigation complete: The Downside Up portal opens when the barrier between worlds is weak, and its timing is influenced by electrical activity rather than a set clock. To predict when the portal will open, you should monitor electrical activity in your area, as fluctuations may indicate when the barrier is weak and a portal is likely to appear.",
+        "[RESOLVE] Drafting resolution strictly from investigation findings...",
+        "[RESOLVE] Resolution generated: To effectively predict the opening of the Downside Up portal, monitor local electrical activity for fluctuations, as these changes indicate a weakening barrier between worlds. This approach will allow for timely awareness of potential portal appearances.",
+        "[CLOSE] Case closed under category 'portal'. Verified resolution: To effectively predict the opening of the Downside Up portal, monitor local electrical activity for fluctuations, as these changes indicate a weakening barrier between worlds. This approach will allow for timely awareness of potential portal appearances."
+      ],
+      "evidence": "Portals open when the barrier between worlds is weak. Their timing follows electrical activity, not the clock.",
+      "investigation": "The Downside Up portal opens when the barrier between worlds is weak, and its timing is influenced by electrical activity rather than a set clock. To predict when the portal will open, you should monitor electrical activity in your area, as fluctuations may indicate when the barrier is weak and a portal is likely to appear.",
+      "resolution": "To effectively predict the opening of the Downside Up portal, monitor local electrical activity for fluctuations, as these changes indicate a weakening barrier between worlds. This approach will allow for timely awareness of potential portal appearances.",
+      "closure": "Case closed under category 'portal'. Verified resolution: To effectively predict the opening of the Downside Up portal, monitor local electrical activity for fluctuations, as these changes indicate a weakening barrier between worlds. This approach will allow for timely awareness of potential portal appearances.",
+      "status": "closed"
+    },
+    {
+      "index": 2,
+      "complaint": "Demogorgons sometimes work together and sometimes fight. What's their deal?",
+      "raw_category": "monster",
+      "category": "monster",
+      "is_valid": true,
+      "validation_reason": "Normalized category 'monster' (from raw output 'monster') is in VALID_CATEGORIES ['portal', 'monster', 'psychic', 'environmental'].",
+      "workflow_path": [
+        "intake",
+        "validate",
+        "investigate",
+        "resolve",
+        "close"
+      ],
+      "formatted_path": "intake → validate → investigate → resolve → close",
+      "node_logs": [
+        "[INTAKE] Processing complaint...",
+        "[INTAKE] Raw category: 'monster' -> Normalized: 'monster'",
+        "[INTAKE] Categorized as: monster",
+        "[VALIDATE] Checking category against VALID_CATEGORIES...",
+        "[VALIDATE] Valid complaint category 'monster'.",
+        "[INVESTIGATE] Retrieving canonical lore for category 'monster'...",
+        "[INVESTIGATE] Evidence recorded and investigation complete: Demogorgons primarily act alone when hunting, indicating that they are solitary creatures by nature. However, they can also follow a hive mind when a larger entity exerts control over them. This explains the observed behavior of Demogorgons sometimes working together and at other times fighting; their cooperation is contingent upon external influence, while their solitary instincts prevail in the absence of such control.",
+        "[RESOLVE] Drafting resolution strictly from investigation findings...",
+        "[RESOLVE] Resolution generated: Demogorgons exhibit solitary hunting behavior, but their tendency to cooperate in groups is dependent on external control from a larger entity. In the absence of such influence, they will primarily act alone.",
+        "[CLOSE] Case closed under category 'monster'. Verified resolution: Demogorgons exhibit solitary hunting behavior, but their tendency to cooperate in groups is dependent on external control from a larger entity. In the absence of such influence, they will primarily act alone."
+      ],
+      "evidence": "Demogorgons act alone when hunting, but follow a hive mind when a larger entity controls them.",
+      "investigation": "Demogorgons primarily act alone when hunting, indicating that they are solitary creatures by nature. However, they can also follow a hive mind when a larger entity exerts control over them. This explains the observed behavior of Demogorgons sometimes working together and at other times fighting; their cooperation is contingent upon external influence, while their solitary instincts prevail in the absence of such control.",
+      "resolution": "Demogorgons exhibit solitary hunting behavior, but their tendency to cooperate in groups is dependent on external control from a larger entity. In the absence of such influence, they will primarily act alone.",
+      "closure": "Case closed under category 'monster'. Verified resolution: Demogorgons exhibit solitary hunting behavior, but their tendency to cooperate in groups is dependent on external control from a larger entity. In the absence of such influence, they will primarily act alone.",
+      "status": "closed"
+    },
+    {
+      "index": 3,
+      "complaint": "El can move things with her mind but can't lift heavy rocks. Why?",
+      "raw_category": "psychic",
+      "category": "psychic",
+      "is_valid": true,
+      "validation_reason": "Normalized category 'psychic' (from raw output 'psychic') is in VALID_CATEGORIES ['portal', 'monster', 'psychic', 'environmental'].",
+      "workflow_path": [
+        "intake",
+        "validate",
+        "investigate",
+        "resolve",
+        "close"
+      ],
+      "formatted_path": "intake → validate → investigate → resolve → close",
+      "node_logs": [
+        "[INTAKE] Processing complaint...",
+        "[INTAKE] Raw category: 'psychic' -> Normalized: 'psychic'",
+        "[INTAKE] Categorized as: psychic",
+        "[VALIDATE] Checking category against VALID_CATEGORIES...",
+        "[VALIDATE] Valid complaint category 'psychic'.",
+        "[INVESTIGATE] Retrieving canonical lore for category 'psychic'...",
+        "[INVESTIGATE] Evidence recorded and investigation complete: El's inability to lift heavy rocks with her psychic power is likely due to the energy drain associated with moving larger or heavier objects. According to the lore, bigger objects require more energy to manipulate, which may exceed her current capacity. Additionally, if she experiences nosebleeds, this could indicate that she is pushing her limits, further explaining her difficulty with heavier items.",
+        "[RESOLVE] Drafting resolution strictly from investigation findings...",
+        "[RESOLVE] Resolution generated: El's difficulty in lifting heavy rocks is attributed to the energy drain required for manipulating larger objects, which may exceed her current capacity. The occurrence of nosebleeds suggests she is pushing her limits, further impacting her ability to lift these items.",
+        "[CLOSE] Case closed under category 'psychic'. Verified resolution: El's difficulty in lifting heavy rocks is attributed to the energy drain required for manipulating larger objects, which may exceed her current capacity. The occurrence of nosebleeds suggests she is pushing her limits, further impacting her ability to lift these items."
+      ],
+      "evidence": "Psychic power drains the user's energy. Bigger or heavier objects need more energy, and nosebleeds are a warning sign.",
+      "investigation": "El's inability to lift heavy rocks with her psychic power is likely due to the energy drain associated with moving larger or heavier objects. According to the lore, bigger objects require more energy to manipulate, which may exceed her current capacity. Additionally, if she experiences nosebleeds, this could indicate that she is pushing her limits, further explaining her difficulty with heavier items.",
+      "resolution": "El's difficulty in lifting heavy rocks is attributed to the energy drain required for manipulating larger objects, which may exceed her current capacity. The occurrence of nosebleeds suggests she is pushing her limits, further impacting her ability to lift these items.",
+      "closure": "Case closed under category 'psychic'. Verified resolution: El's difficulty in lifting heavy rocks is attributed to the energy drain required for manipulating larger objects, which may exceed her current capacity. The occurrence of nosebleeds suggests she is pushing her limits, further impacting her ability to lift these items.",
+      "status": "closed"
+    },
+    {
+      "index": 4,
+      "complaint": "Why do creatures and power lines react so strangely together?",
+      "raw_category": "environmental",
+      "category": "environmental",
+      "is_valid": true,
+      "validation_reason": "Normalized category 'environmental' (from raw output 'environmental') is in VALID_CATEGORIES ['portal', 'monster', 'psychic', 'environmental'].",
+      "workflow_path": [
+        "intake",
+        "validate",
+        "investigate",
+        "resolve",
+        "close"
+      ],
+      "formatted_path": "intake → validate → investigate → resolve → close",
+      "node_logs": [
+        "[INTAKE] Processing complaint...",
+        "[INTAKE] Raw category: 'environmental' -> Normalized: 'environmental'",
+        "[INTAKE] Categorized as: environmental",
+        "[VALIDATE] Checking category against VALID_CATEGORIES...",
+        "[VALIDATE] Valid complaint category 'environmental'.",
+        "[INVESTIGATE] Retrieving canonical lore for category 'environmental'...",
+        "[INVESTIGATE] Evidence recorded and investigation complete: The investigation into the complaint reveals that creatures from the Downside Up disturb electricity, causing lights to flicker and power lines to react when they are in proximity. This interaction suggests that the presence of these creatures interferes with the normal functioning of electrical systems, leading to the observed strange reactions.",
+        "[RESOLVE] Drafting resolution strictly from investigation findings...",
+        "[RESOLVE] Resolution generated: To mitigate the disturbances caused by creatures from the Downside Up, it is recommended to implement measures that limit their proximity to electrical systems, thereby reducing flickering lights and erratic power line behavior. Further monitoring of electrical infrastructure in affected areas is advised to assess ongoing impacts.",
+        "[CLOSE] Case closed under category 'environmental'. Verified resolution: To mitigate the disturbances caused by creatures from the Downside Up, it is recommended to implement measures that limit their proximity to electrical systems, thereby reducing flickering lights and erratic power line behavior. Further monitoring of electrical infrastructure in affected areas is advised to assess ongoing impacts."
+      ],
+      "evidence": "Creatures from the Downside Up disturb electricity: lights flicker and power lines react when they are near.",
+      "investigation": "The investigation into the complaint reveals that creatures from the Downside Up disturb electricity, causing lights to flicker and power lines to react when they are in proximity. This interaction suggests that the presence of these creatures interferes with the normal functioning of electrical systems, leading to the observed strange reactions.",
+      "resolution": "To mitigate the disturbances caused by creatures from the Downside Up, it is recommended to implement measures that limit their proximity to electrical systems, thereby reducing flickering lights and erratic power line behavior. Further monitoring of electrical infrastructure in affected areas is advised to assess ongoing impacts.",
+      "closure": "Case closed under category 'environmental'. Verified resolution: To mitigate the disturbances caused by creatures from the Downside Up, it is recommended to implement measures that limit their proximity to electrical systems, thereby reducing flickering lights and erratic power line behavior. Further monitoring of electrical infrastructure in affected areas is advised to assess ongoing impacts.",
+      "status": "closed"
+    },
+    {
+      "index": 5,
+      "complaint": "This is not a valid complaint about something random",
+      "raw_category": "other",
+      "category": "other",
+      "is_valid": false,
+      "validation_reason": "Normalized category 'other' (from raw output 'other') is not in VALID_CATEGORIES ['portal', 'monster', 'psychic', 'environmental'].",
+      "workflow_path": [
+        "intake",
+        "validate",
+        "reject"
+      ],
+      "formatted_path": "intake → validate → reject",
+      "node_logs": [
+        "[INTAKE] Processing complaint...",
+        "[INTAKE] Raw category: 'other' -> Normalized: 'other'",
+        "[INTAKE] Categorized as: other",
+        "[VALIDATE] Checking category against VALID_CATEGORIES...",
+        "[VALIDATE] Invalid complaint category 'other'. Routing to reject.",
+        "[REJECT] Complaint rejected by strict validation guardrail. Reason: Normalized category 'other' (from raw output 'other') is not in VALID_CATEGORIES ['portal', 'monster', 'psychic', 'environmental']."
+      ],
+      "evidence": "",
+      "investigation": "",
+      "resolution": "",
+      "closure": "Complaint rejected by strict validation guardrail. Reason: Normalized category 'other' (from raw output 'other') is not in VALID_CATEGORIES ['portal', 'monster', 'psychic', 'environmental'].",
+      "status": "rejected"
+    }
+  ],
+  "summary_counts": {
+    "closed": 4,
+    "rejected": 1,
+    "total": 5
+  },
+  "mermaid_diagram": "---\nconfig:\n  flowchart:\n    curve: linear\n---\ngraph TD;\n\t__start__([<p>__start__</p>]):::first\n\tintake(intake)\n\tvalidate(validate)\n\tinvestigate(investigate)\n\tresolve(resolve)\n\tclose(close)\n\treject(reject)\n\t__end__([<p>__end__</p>]):::last\n\t__start__ --> intake;\n\tintake --> validate;\n\tinvestigate --> resolve;\n\tresolve --> close;\n\tvalidate -.-> investigate;\n\tvalidate -.-> reject;\n\tclose --> __end__;\n\treject --> __end__;\n\tclassDef default fill:#f2f0ff,line-height:1.2\n\tclassDef first fill-opacity:0\n\tclassDef last fill:#bfb6fc\n",
+  "baseline_comparisons": {
+    "valid_complaint": {
+      "complaint": "The Downside Up portal opens at different times each day. How do I predict when?",
+      "langgraph_category": "portal",
+      "langgraph_workflow_path": [
+        "intake",
+        "validate",
+        "investigate",
+        "resolve",
+        "close"
+      ],
+      "langgraph_evidence": "Portals open when the barrier between worlds is weak. Their timing follows electrical activity, not the clock.",
+      "langgraph_investigation": "The Downside Up portal opens when the barrier between worlds is weak, and its timing is influenced by electrical activity rather than a set clock. To predict when the portal will open, you should monitor electrical activity in your area, as fluctuations may indicate when the barrier is weak and a portal is likely to appear.",
+      "langgraph_resolution": "To effectively predict the opening of the Downside Up portal, monitor local electrical activity for fluctuations, as these changes indicate a weakening barrier between worlds. This approach will allow for timely awareness of potential portal appearances.",
+      "langgraph_closure": "Case closed under category 'portal'. Verified resolution: To effectively predict the opening of the Downside Up portal, monitor local electrical activity for fluctuations, as these changes indicate a weakening barrier between worlds. This approach will allow for timely awareness of potential portal appearances.",
+      "langgraph_status": "closed",
+      "single_llm_response": "To predict when the Downside Up portal opens, you can follow these steps:\n\n1. **Historical Data**: Gather data on the opening times of the portal over a period of time. Look for patterns or trends in the times it opens each day.\n\n2. **Identify Patterns**: Analyze the data for any recurring patterns. For example, does it open at similar times on certain days of the week? Are there any specific intervals between openings?\n\n3. **External Factors**: Consider any external factors that might influence the opening times, such as events, lunar cycles, or other relevant occurrences.\n\n4. **Create a Model**: If you have enough data, you could create a predictive model using statistical methods or machine learning techniques to forecast future opening times based on past behavior.\n\n5. **Stay Updated**: Keep an eye on any announcements or updates from the source that manages the portal, as they may provide clues or schedules for when it will open.\n\n6. **Community Insights**: Engage with a community of other users who may also be tracking the portal. They might have insights or additional data that can help refine your predictions.\n\nBy combining these approaches, you should be able to make more informed predictions about when the Downside Up portal will open."
+    },
+    "invalid_complaint": {
+      "complaint": "This is not a valid complaint about something random",
+      "langgraph_raw_category": "other",
+      "langgraph_category": "other",
+      "langgraph_workflow_path": [
+        "intake",
+        "validate",
+        "reject"
+      ],
+      "langgraph_validation_reason": "Normalized category 'other' (from raw output 'other') is not in VALID_CATEGORIES ['portal', 'monster', 'psychic', 'environmental'].",
+      "langgraph_closure": "Complaint rejected by strict validation guardrail. Reason: Normalized category 'other' (from raw output 'other') is not in VALID_CATEGORIES ['portal', 'monster', 'psychic', 'environmental'].",
+      "langgraph_status": "rejected",
+      "single_llm_response": "It seems like you're looking for a humorous or absurd complaint about something random. Here’s an example:\n\n\"I would like to formally complain about the fact that my pet goldfish, Bubbles, refuses to engage in deep philosophical discussions with me. I have tried everything from Plato to existentialism, yet all I get in return is a blank stare and the occasional bubble. This lack of intellectual stimulation is quite disappointing and frankly, I expected more from a creature that spends all day swimming in circles!\"\n\nFeel free to let me know if you need something different!"
+    }
+  }
+}

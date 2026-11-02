@@ -1,0 +1,8 @@
+langgraph==1.2.19
+langchain-openai==1.7.3
+langchain-core==1.7.3
+python-dotenv==1.2.4
+jupyter==1.1.1
+ipykernel==7.4.0
+ipython==9.18.0
+pytest==9.2.0
